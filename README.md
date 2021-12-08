@@ -1,0 +1,2 @@
+# igbot
+Simple instagram bot
