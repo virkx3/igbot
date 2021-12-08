@@ -15,7 +15,6 @@ ig="https://www.instagram.com{}"
 id_find=[]
 id_flwr=[]
 id_flwg=[]
-id_home=[]
 id_people=[]
 done=0
 die=0
