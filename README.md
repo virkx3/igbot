@@ -19,11 +19,13 @@ Kalo udh diinstall semua tinggal ketik : python run.py
 
 # note
 
+Script ini tidak berlaku untuk akun private.
+
 Resiko : akun ke non/ban
 
 jika akun anda ke non/sesi saya tidak bertanggung jawab:)
 
-Cobalah gunakan authentication 2 factor sebelum memakai sc ini 
+Cobalah gunakan authentication 2 factor sebelum memakai sc ini ,
 
 Untuk menghindari akun terkena baned/di nonaktifkan.
 
