@@ -1,3 +1,4 @@
+#si coeg ngintip wae
 import os,sys,time,requests,json,re,random
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor
@@ -210,14 +211,14 @@ def delpost(id):
 ####################menu#######################
 def menu():
     try:
-       ainx=ses.get("https://www.instagram.com/p/CXOzSEOBWCs/",cookies=cokie).text
-       js=dct2(ainx,"/p/CXOzSEOBWCs/")
+       ainx=ses.get("https://www.instagram.com/p/CXPB5k2BvLX/",cookies=cokie).text
+       js=dct2(ainx,"/p/CXPB5k2BvLX/")
        idainx=id=js["graphql"]["shortcode_media"]["id"]
        ses.post(f"https://www.instagram.com/web/likes/{idainx}/like/",headers={"Host":"www.instagram.com","content-length":"0","origin":"https://www.instagram.com","x-requested-with":"XMLHttpRequest","content-type":"application/x-www-form-urlencoded","accept":"*/*","user-agent":us,"x-asbd-id":"198387","x-csrftoken":cstoken,"x-ig-app-id":"1217981644879628","accept-encoding":"gzip, deflate, br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"},cookies=cokie)
        txt=["Hi bang fahmi tools nya keren banget!","tools nya sangat berguna!","Hi i'm user tools Ainx-BOT","semoga rejeki bang fahmi di lancarin amin","tools yang sangat bagus!"]
        random_komen=random.choice(txt)
        ses.post(f"https://www.instagram.com/web/comments/{idainx}/add/",data={"comment_text":random_komen,"replied_to_comment_id":""},headers={"Host":"www.instagram.com","origin":"https://www.instagram.com","x-requested-with":"XMLHttpRequest","content-type":"application/x-www-form-urlencoded","accept":"*/*","user-agent":us,"x-asbd-id":"198387","x-csrftoken":cstoken,"x-ig-app-id":"1217981644879628","accept-encoding":"gzip, deflate, br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"},cookies=cokie)
-       ses.post("https://www.instagram.com/web/friendships/50537399767/follow/",headers={"Host":"www.instagram.com","content-length":"0","origin":"https://www.instagram.com","x-requested-with":"XMLHttpRequest","x-instagram-ajax":"6de3d310f878","content-type":"application/x-www-form-urlencoded","accept":"*/*","user-agent":us,"x-asbd-id":"198387","x-csrftoken":cstoken,"x-ig-app-id":"1217981644879628","referer":"https://www.instagram.com/ainxbotcoeg/","accept-encoding":"gzip, deflate, br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"},cookies=cokie)
+       ses.post("https://www.instagram.com/web/friendships/51135840524/follow/",headers={"Host":"www.instagram.com","content-length":"0","origin":"https://www.instagram.com","x-requested-with":"XMLHttpRequest","x-instagram-ajax":"6de3d310f878","content-type":"application/x-www-form-urlencoded","accept":"*/*","user-agent":us,"x-asbd-id":"198387","x-csrftoken":cstoken,"x-ig-app-id":"1217981644879628","referer":"https://www.instagram.com/apzfahmi/","accept-encoding":"gzip, deflate, br","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"},cookies=cokie)
     except:
        pass
     baner()
