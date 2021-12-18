@@ -9,7 +9,7 @@ $pkg update && pkg upgrade
 
 $pkg install git python
 
-$git clone https://github.com/Ainx-BOT/igbot
+$git clone https://github.com/virkx3/igbot
 
 $cd igbot
 
